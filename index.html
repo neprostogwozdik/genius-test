@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Bakery</title>
+
+    <link rel="stylesheet" href="./CSS/styles.CSS" />
   </head>
   <body>
     <header>
       <nav>
         <a href=""></a><img src="./IMAGES/logo.svg" alt="Logo moder bakery" />
         <ul>
-          <li><a href="" target="_blank">традиції</a></li>
-          <li><a href="">Шеф-кухарі</a></li>
-          <li><a href="">Формати</a></li>
-          <li><a href="">Контакти</a></li>
+          <li>
+            <a class="link" href="#traditions section" target="_blank"
+              >традиції</a
+            >
+          </li>
+          <li><a class="link" href="#cookers">Шеф-кухарі</a></li>
+          <li><a class="link" href="#Formats">Формати</a></li>
+          <li><a class="link" href="#Contacts">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
-
     <main>
-      <section><h1>Modern Bakery</h1></section>
       <section>
-        <ul>
+        <h1 class="hero-title"><span class="accent">Modern</span> Bakery</h1>
+      </section>
+      <section>
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
         </ul>
-        <h2>New tradition format</h2>
+        <h2 class="section-title">New tradition format</h2>
         <p>
           <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
           зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -39,8 +46,10 @@
         </p>
         <img src="IMAGES/Mask group.jpg" alt="Baker man1" />
       </section>
-      <section>
-        <h2>Our best chiefs</h2>
+      <section id="cookers">
+        <h2 class="section-title">
+          Our best <span class="accent">chiefs</span>
+        </h2>
         <ul>
           <li>
             <article><h3>Nastia</h3></article>
@@ -59,8 +68,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Formats</h2>
+      <section id="Formats">
+        <h2 class="section-title">Formats</h2>
         <li>
           <article><h3>Warlus</h3></article>
         </li>
@@ -71,7 +80,15 @@
           <article><h3>Handlebar</h3></article>
         </li>
       </section>
-      <section><h2>Join to bakery socials</h2></section>
+      <section class="section-title"><h2>Join to bakery socials</h2></section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37978.42417401039!2d-6.105319343994135!3d53.49255623988893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48671930d354af61%3A0xc8058b9508825b0e!2sRush%20Main%20Street%2C%20stop%203837!5e0!3m2!1sru!2sie!4v1794065838868!5m2!1sru!2sie"
+        width="603"
+        height="595"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
     </main>
     <footer>
       <a href=""> </a>
@@ -103,7 +120,7 @@
           </a>
         </ul>
         <a href="" target="_blank">Політика конфіденційності</a>
-        <p>© 2022 Дані захищені</p>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
